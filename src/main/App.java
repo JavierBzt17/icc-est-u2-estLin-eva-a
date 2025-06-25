@@ -1,5 +1,8 @@
 package main;
 
+import java.util.Queue;
+import java.util.concurrent.ConcurrentLinkedQueue;
+
 import utils.StudentValidator;
 
 public class App {
@@ -10,5 +13,6 @@ public class App {
         System.out.println("✉️  Correo: " + estudiante.correo());
         // NO MODIFICAR HASTA AQUÍ
 
+        Queue <invertirColaNombres> nombres = 
     }
 }
